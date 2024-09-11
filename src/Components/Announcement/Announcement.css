@@ -1,0 +1,61 @@
+.announcement-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 400px;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .announcement-table thead tr {
+    background-color: #ff7f50;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .announcement-table th,
+  .announcement-table td {
+    padding: 12px 15px;
+  }
+  
+  .announcement-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .announcement-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .announcement-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff7f50;
+  }
+  
+  .announcement-table th {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .pagination select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .pagination button {
+
+    margin: 0 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s;
+  }
+  .pagination button:hover{
+    background-color: #ff7f50;
+    color: #fff;
+  }
+  

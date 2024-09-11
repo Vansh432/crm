@@ -1,0 +1,17 @@
+.leavesBox{
+    background-color: #fff;
+    padding: 20px;
+    border-radius:10px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.Dropdown-root{
+    border-radius: 5px;
+   
+}
+.Dropdown-control{
+    padding: 3px 35px 3px 10px;
+    border-radius: 5px;
+    font-size: .9rem;
+}

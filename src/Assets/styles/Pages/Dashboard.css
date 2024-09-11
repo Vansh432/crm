@@ -1,0 +1,9 @@
+    /* src/Dashboard.css */
+.dashUpper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  

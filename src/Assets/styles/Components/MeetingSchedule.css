@@ -1,0 +1,41 @@
+/* src/MeetingSchedule.css */
+.meeting-schedule {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  
+  .meeting-schedule h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #444050;
+    font-weight: 600;
+  }
+  
+  .meeting-schedule table {
+    width: 100%;
+   
+  }
+  
+  .meeting-schedule th, 
+  .meeting-schedule td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+  }
+  
+  .meeting-schedule th {
+   
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: .4px;
+  }
+  
+  .meeting-schedule tr:last-child td {
+    border-bottom: none;
+  }
+  

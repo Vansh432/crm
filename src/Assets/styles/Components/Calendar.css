@@ -1,0 +1,53 @@
+/* src/CalendarComponent.css */
+.calendar-component {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .rbc-toolbar button {
+    color: #ff5722;
+    background-color: #fff;
+    border: 1px solid #ff5722;
+    padding: 8px 15px;
+    font-size: .8rem;
+    border-radius: 5px;
+    height: 40px;
+    transition: 0.4s;
+  }
+  
+  .rbc-toolbar button:hover {
+    background-color: #ff5722;
+    color: #fff;
+    border-color: #ff5722;
+  }
+  
+  .rbc-toolbar .rbc-btn-group button:focus,
+  .rbc-toolbar .rbc-btn-group button:active {
+    box-shadow: none;
+  }
+  
+  .rbc-toolbar button.rbc-active {
+    background-color: #ff5722;
+    color: #fff;
+    border-color: #ff5722;
+  }
+  
+  .rbc-month-view, .rbc-time-view {
+    background-color: #f9f9f9;
+  }
+  
+  .rbc-event {
+    padding: 2px 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .rbc-day-bg {
+    border: 1px solid #e5e5e5;
+  }
+  

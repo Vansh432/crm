@@ -1,0 +1,27 @@
+.notification-card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  
+  }
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+  
+  .notification-header h4 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .notification-header p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
